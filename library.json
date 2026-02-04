@@ -1,0 +1,14 @@
+{
+  "name": "modbus_manager",
+  "version": "0.1.0",
+  "description": "4-20mA Modbus master library for PlatformIO",
+  "keywords": ["modbus", "modbus-rtu", "4-20mA", "master", "platformio"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izasoerya/modbus_manager.git"
+  },
+  "frameworks": ["arduino"],
+  "platforms": "*",
+  "headers": ["services/modbus_service.h"],
+  "dependencies": []
+}
