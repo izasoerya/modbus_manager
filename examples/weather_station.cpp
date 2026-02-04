@@ -14,9 +14,9 @@ ModbusService airQualityObject(&airQualitySensor);
 ModbusService powerMeterObject(&powerMeterSensor);
 
 // ---------------- NETWORK ----------------
-const char *ssid = "WeatherStationAP";
-const char *password = "WS1234567890";
-const char *endpoint = "https://api.agrisync.site/api/v1/weather-station/reading";
+const char *ssid = "SSID";
+const char *password = "PASSWORD";
+const char *endpoint = "https://api.endpoint.site/";
 
 const char *stationId = "2567dbd8-f385-4df2-977b-14bc671dad7e";
 
